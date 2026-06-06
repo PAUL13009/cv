@@ -43,6 +43,32 @@
     margin-bottom: 24px;
   }
 
+  .pdf-link {
+    display: inline-block;
+    margin-top: 14px;
+    padding: 8px 14px;
+    border-radius: 999px;
+    background: #5eead4;
+    color: #0f172a;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .pdf-link:hover {
+    background: #99f6e4;
+  }
+
+  .sidebar a {
+    color: #5eead4;
+    text-decoration: none;
+  }
+
+  .sidebar a:hover {
+    text-decoration: underline;
+  }
+
   .profile-photo {
     width: 132px;
     height: 132px;
@@ -267,6 +293,24 @@
 
   .profile-header {
     margin-bottom: 3mm;
+  }
+
+  .pdf-link {
+    display: inline-block;
+    margin-top: 2mm;
+    padding: 1mm 2.5mm;
+    border-radius: 999px;
+    background: #5eead4;
+    color: #0f172a;
+    font-size: 7pt;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .sidebar a {
+    color: #5eead4;
+    text-decoration: none;
   }
 
   .profile-photo {
